@@ -1,0 +1,18 @@
+GREENHYDROGEN AI — JUDGE DEMO EDITION
+
+1) Backend terminal:
+cd backend
+python -m venv venv
+.\venv\Scripts\python.exe -m pip install -r requirements.txt
+.\venv\Scripts\python.exe -m uvicorn app.main:app --reload
+
+2) Frontend terminal:
+cd frontend
+npm.cmd install
+npm.cmd run dev
+
+3) Open: http://localhost:5173
+4) Backend docs: http://127.0.0.1:8000/docs
+
+DO NOT run npm commands inside backend.
+DO NOT describe this as a physical hydrogen plant. It is a software simulation and decision-support prototype.
