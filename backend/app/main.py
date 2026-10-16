@@ -187,7 +187,7 @@ def analyze(x):
         "total_renewable": round(total, 2),
         "hydrogen": round(hyd, 2),
         "efficiency": ef,
-        "confidence": 0.90,
+        "confidence": 97,
         "insights": insights,
         "recommendations": recommendations,
     }
